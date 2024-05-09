@@ -21,6 +21,13 @@
       "email": "test@gmail.com",
       "password": "$2a$10$ohOLjzC6V33Yr2rB7Ly/gegn7jYiysen7iEHbodeH9fjblj1fJWL2",
       "id": 1
+    },
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$ygRzz86rT/4v.GYNvJ0zeeTPLXThetZIia8V260ercmlRIMSOnxN6",
+      "firstName": "Test",
+      "lastName": "Surname",
+      "id": 2
     }
   ]
 }
