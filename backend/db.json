@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$ohOLjzC6V33Yr2rB7Ly/gegn7jYiysen7iEHbodeH9fjblj1fJWL2",
+      "id": 1
+    }
+  ]
+}
