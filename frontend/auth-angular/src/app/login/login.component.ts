@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { AuthService } from '../core/auth/auth.service';
 @Component({
   selector: 'app-login',
   standalone: true,
@@ -8,6 +9,9 @@ import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angula
   styleUrl: './login.component.scss'
 })
 export class LoginComponent {
+
+  private authService = inject( AuthService );
+
   loginForm: FormGroup = new FormGroup({
     email: new FormControl('', [
       Validators.required
@@ -15,9 +19,10 @@ export class LoginComponent {
     password: new FormControl('', [
       Validators.required
     ])
-  })
+  });
+
   submitLogin(){
-    console.log(this.loginForm.value);
+    this.authService.login( this.loginForm.value );
   }
 }
 
