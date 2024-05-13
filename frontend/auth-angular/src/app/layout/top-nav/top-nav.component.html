@@ -1,0 +1,12 @@
+<header>
+  <nav>
+    <a [routerLink]="['/home']">Home</a>
+    @if ( this.authService.isLogged() === false ) {
+      <a [routerLink]="['/login']">Login</a>
+    } @else {
+      <button (click)="handleLogout()">Logout</button>
+    }
+    
+    <a [routerLink]="['/profile']">Profile</a>
+  </nav>
+</header>
