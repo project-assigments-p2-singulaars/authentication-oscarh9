@@ -28,6 +28,16 @@
       "firstName": "Test",
       "lastName": "Surname",
       "id": 2
+    },
+    {
+      "email": "oscar@mail.com",
+      "password": "$2a$10$c.emOaBQophCp5HfRsAgsu9uIZFepjKwB8eYotjZwXr3sty7rLSC.",
+      "id": 3
+    },
+    {
+      "email": "oscar..00@gmail.com",
+      "password": "$2a$10$iWjPJb3NULu5.5r8PKM9KeSgFnvsW/uVqQZgLsCQB4GjOvAM/ToiW",
+      "id": 4
     }
   ]
 }
